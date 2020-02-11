@@ -2,13 +2,13 @@
     "id": "a4501a42-1fb1-4e73-a4b3-ecffca406143",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object2",
+    "name": "obj_opp",
     "eventList": [
         {
             "id": "c0dbd17c-fadd-460f-a7e2-fc4022450360",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,

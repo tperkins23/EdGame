@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "1ee0bb84-a3ae-4a2f-b857-b02fc2bd6e61",
-            "Value": {
-                "id": "d86d5f0d-95b2-4a22-a435-86afc77ab302",
-                "resourcePath": "tilesets\\tile_grass\\tile_grass.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "253b0ec7-ef5f-44ea-b3cd-3f6da586ecd8",
             "Value": {
                 "id": "a62792a4-f4e0-4e9b-8dfa-f1d687b4400d",
@@ -183,10 +175,18 @@
             }
         },
         {
+            "Key": "a07895f5-fad0-4d0d-98aa-58bbf058001c",
+            "Value": {
+                "id": "2e654bd5-b1ff-4fc9-89b6-2535aaad13db",
+                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a4501a42-1fb1-4e73-a4b3-ecffca406143",
             "Value": {
                 "id": "b539f15a-edd1-4398-8d41-ead33facb821",
-                "resourcePath": "objects\\object2\\object2.yy",
+                "resourcePath": "objects\\obj_opp\\obj_opp.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -228,6 +228,14 @@
                 "id": "30308056-c526-4622-9ef1-83f59e7baf73",
                 "resourcePath": "sprites\\spr_run\\spr_run.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc4980fe-af80-4004-bddd-cbcf08b095c0",
+            "Value": {
+                "id": "b154bb9d-2686-42ba-9f48-57bb11e8605e",
+                "resourcePath": "paths\\path1\\path1.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -296,7 +304,7 @@
         }
     ],
     "script_order": [
-        
+        "a07895f5-fad0-4d0d-98aa-58bbf058001c"
     ],
     "tutorial": "com.YoYoGames.GMBasicsTheRoomEditor"
 }

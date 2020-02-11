@@ -7,16 +7,13 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "bfb05ee4-8a7f-4aff-bd99-0c93eb539bee",
-        "24420205-b9b4-4fe0-92fe-3e3af13bdda3",
-        "b463acb8-0046-4a5f-99b9-80c01712c442",
-        "189234bf-c2ae-4a2a-bf5b-e47279730147"
+
     ],
     "IsDnD": true,
     "layers": [
         {
             "__type": "GMRPathLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Path_1",
+            "name": "path_player",
             "id": "6a0d1464-fd39-4249-91a9-54e25d408763",
             "colour": { "Value": 4278190335 },
             "depth": 0,
@@ -34,14 +31,14 @@
             "m_parentID": "00000000-0000-0000-0000-000000000000",
             "m_serialiseFrozen": false,
             "modelName": "GMRPathLayer",
-            "pathId": "94ae3bfe-883b-41ad-b006-3169c8206d85",
+            "pathId": "dc4980fe-af80-4004-bddd-cbcf08b095c0",
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances_1",
+            "name": "inst_run",
             "id": "926296d1-6365-4213-a195-f8d4082b3734",
             "depth": 100,
             "grid_x": 32,
@@ -53,10 +50,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_24E5E678","id": "bfb05ee4-8a7f-4aff-bd99-0c93eb539bee","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_24E5E678","objId": "4b472982-a2aa-4de4-8e11-3b16b7ffdfea","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 440,"y": 660},
-{"name": "inst_766CD6F4","id": "24420205-b9b4-4fe0-92fe-3e3af13bdda3","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_766CD6F4","objId": "a4501a42-1fb1-4e73-a4b3-ecffca406143","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 430,"y": 720},
-{"name": "inst_12623934","id": "b463acb8-0046-4a5f-99b9-80c01712c442","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_12623934","objId": "ebe5a0fe-c101-478d-9f8a-9ba43c881865","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 416,"y": 640},
-{"name": "inst_4226E4CA","id": "189234bf-c2ae-4a2a-bf5b-e47279730147","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4226E4CA","objId": "ebe5a0fe-c101-478d-9f8a-9ba43c881865","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 416,"y": 704}
+
             ],
             "layers": [
 
@@ -70,7 +64,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "tile_track",
             "id": "ba13bd46-5130-4eed-95ba-1f71ce514fa6",
             "depth": 200,
             "grid_x": 32,
@@ -233,7 +227,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Backgrounds_1",
+            "name": "back_grass",
             "id": "116198bc-8811-4a5a-bf82-01f3a8b6b7c7",
             "animationFPS": 15,
             "animationSpeedType": "0",
