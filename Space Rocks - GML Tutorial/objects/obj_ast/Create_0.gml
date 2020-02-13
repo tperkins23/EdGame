@@ -4,5 +4,3 @@ sprite_index = choose(spr_ast_sm,spr_ast_med,spr_ast_hug);
 direction = irandom_range(0,359);
 image_angle = irandom_range(0,359);
 speed = 1;
-move_wrap(true,true,sprite_width/2);
-image_angle = image_angle + 1;

@@ -1,13 +1,13 @@
 
 {
-    "name": "room_1",
+    "name": "Home",
     "id": "fdd4ccb2-c8a4-4e01-ba4f-ce6c5d051950",
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "3e418761-b3c8-467a-b69a-d0b4bc4d9f17"
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_39025037","id": "3e418761-b3c8-467a-b69a-d0b4bc4d9f17","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_39025037","objId": "af0f7f5d-27bf-4ba8-b9cc-33d8c06e6273","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 224,"y": 416}
             ],
             "layers": [
 
@@ -43,7 +43,7 @@
             "id": "d9d0fa3a-9251-43ca-8153-e0f0b79d4c95",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,8 +62,8 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
-            "stretch": false,
+            "spriteId": "a48d7cf1-969f-4b7f-8938-a459a17b4a59",
+            "stretch": true,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
@@ -87,7 +87,7 @@
     },
     "roomSettings":     {
         "id": "6e1f5343-c1b4-4a60-8f03-d9d39d98acad",
-        "Height": 768,
+        "Height": 1024,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
