@@ -183,10 +183,18 @@
             }
         },
         {
+            "Key": "9c3b7fdc-43e3-4489-92a3-b3460438e93b",
+            "Value": {
+                "id": "b94fb422-2985-4bcb-810e-0127127caa4b",
+                "resourcePath": "fonts\\fnt_game\\fnt_game.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a07895f5-fad0-4d0d-98aa-58bbf058001c",
             "Value": {
                 "id": "2e654bd5-b1ff-4fc9-89b6-2535aaad13db",
-                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourcePath": "scripts\\scr_quest\\scr_quest.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -242,8 +250,16 @@
             "Key": "ce5e4178-23ce-44a5-9e9b-353d0fb08daf",
             "Value": {
                 "id": "e9d59e7c-509f-4bd8-b824-5cf9eb80ff5f",
-                "resourcePath": "rooms\\Track\\Track.yy",
+                "resourcePath": "rooms\\rm_track\\rm_track.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "cecfc9ef-e7e2-46e6-9c35-fa5257f393ad",
+            "Value": {
+                "id": "8ef06e7b-d1be-4fa2-b988-3d260b2ab86f",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -314,7 +330,7 @@
             "Key": "fdd4ccb2-c8a4-4e01-ba4f-ce6c5d051950",
             "Value": {
                 "id": "ca2a5fac-dd80-4c6a-8c7e-2a7dc6da6b30",
-                "resourcePath": "rooms\\Home\\Home.yy",
+                "resourcePath": "rooms\\rm_home\\rm_home.yy",
                 "resourceType": "GMRoom"
             }
         },
