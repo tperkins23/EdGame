@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "0dba8a4a-e6b4-4642-8686-d38ea066586b",
+            "Value": {
+                "id": "b5122222-a069-4a22-b5d5-ec7c0904a8a8",
+                "resourcePath": "sprites\\spr_run\\spr_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e69ec04-f9a8-4b66-818f-f0ebbea95641",
             "Value": {
                 "id": "d131797f-0877-4573-8a2c-5f314265dfb4",
                 "resourcePath": "views\\0e69ec04-f9a8-4b66-818f-f0ebbea95641.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1603143c-3f87-4ae8-ae81-309b55a77ecd",
+            "Value": {
+                "id": "5ff37eb0-7d6a-48ee-8b94-887f3e8b2e4d",
+                "resourcePath": "objects\\obj_run\\obj_run.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -58,7 +74,15 @@
             "Key": "2276eb75-2263-4ca1-95b6-190790084b9a",
             "Value": {
                 "id": "2734c102-2368-446d-960a-70acec4a0be2",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_home\\rm_home.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2311ef60-0261-4444-b303-d3eb0c1e389a",
+            "Value": {
+                "id": "08fa15a9-21cf-4fae-a893-8af12b7cddf4",
+                "resourcePath": "rooms\\rm_game\\rm_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -76,6 +100,14 @@
                 "id": "484fded6-9e9d-4134-99c0-328dc8e94d42",
                 "resourcePath": "views\\28e64567-d7be-44cc-95a3-e96dcb1c6575.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "30b55990-60fa-49a9-97a8-248c75df3c29",
+            "Value": {
+                "id": "9d7d590c-0c2a-4d8c-a10a-485c70edabfa",
+                "resourcePath": "fonts\\fnt_base\\fnt_base.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -100,6 +132,14 @@
                 "id": "d031d18c-bf6d-491b-8ff7-280c0124390c",
                 "resourcePath": "views\\76ec2a99-4760-41e4-88df-d1581b9378a6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87330486-a72c-4d47-b03a-edde9b29df2a",
+            "Value": {
+                "id": "bea6dfa5-8f70-4277-9440-66cf6ef79ef9",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
