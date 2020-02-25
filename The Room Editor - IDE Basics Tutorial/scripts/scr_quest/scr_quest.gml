@@ -27,5 +27,4 @@ else if (func == 3)
 	var ans = v1 * v2;
 }
 var qa = [quest,ans];
-show_debug_message("generating: " + qa[0]);
 return(qa);

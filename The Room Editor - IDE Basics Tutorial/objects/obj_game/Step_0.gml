@@ -2,7 +2,6 @@
 
 if (keyboard_check_pressed(vk_enter))
 {
-	show_debug_message("enter pressed...");
 	switch(room)
 	{
 		case rm_home:
@@ -30,7 +29,6 @@ if (keyboard_check_pressed(vk_enter))
 		
 		case rm_game:
 			qu = scr_quest(rl,rh,fx);
-			show_debug_message(qu);
 			break;
 		
 	}

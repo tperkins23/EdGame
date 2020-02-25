@@ -2,7 +2,7 @@
 // You can write your code in this editor
 rl = 1;
 rh = 10;
-fx = 1
+fx = 1;
 
 l1 = c_red;
 l2 = c_blue;

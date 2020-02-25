@@ -28,7 +28,6 @@ case rm_game:
 	var c = c_red;
 	//var qu = scr_quest(rl,rh,fx);
 	var q = qu[0];
-	show_debug_message(q);
 	
 	//var q = string(4)+" + "+string(3);
 	//draw_text(room_width/2,100,q);

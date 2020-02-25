@@ -5,13 +5,13 @@
     "name": "obj_run",
     "eventList": [
         {
-            "id": "b18551fc-803d-43d3-87ef-dff4e6fc84f4",
+            "id": "b9daafe4-682d-4eeb-a4d1-60ef067f2bcb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "4b472982-a2aa-4de4-8e11-3b16b7ffdfea"
         }
     ],
