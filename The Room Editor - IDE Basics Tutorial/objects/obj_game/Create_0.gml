@@ -10,3 +10,6 @@ l3 = c_blue;
 
 globalvar qu;
 qu = ["Press Enter for Question",0];
+
+globalvar inp;
+inp = "Test";

@@ -5,13 +5,13 @@
     "name": "obj_opp",
     "eventList": [
         {
-            "id": "c0dbd17c-fadd-460f-a7e2-fc4022450360",
+            "id": "15cb6b9f-0ca9-4535-879b-3a5f16d11399",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "a4501a42-1fb1-4e73-a4b3-ecffca406143"
         }
     ],

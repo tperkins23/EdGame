@@ -32,6 +32,21 @@ case rm_game:
 	//var q = string(4)+" + "+string(3);
 	//draw_text(room_width/2,100,q);
 	draw_text_transformed_color(room_width/2,100,q,2,2,0,c,c,c,c,1);
+	draw_text_transformed_color(room_width/2, 450,inp,2,2,0,c,c,c,c,1);
+	draw_set_halign(fa_left);
+	break;
+case rm_win:
+	draw_set_halign(fa_center);
+	var c = c_yellow;
+	draw_text_transformed_color(room_width/2, 500,"Winner",3,3,0,c,c,c,c,1);
+	draw_text_transformed_color(room_width/2,700,"Press Enter to play again",1,1,0,c,c,c,c,1);
+	draw_set_halign(fa_left);
+	break;
+case rm_lose:
+	draw_set_halign(fa_center);
+	var c = c_orange;
+	draw_text_transformed_color(room_width/2,500,"Game Over",3,3,0,c,c,c,c,1);
+	draw_text_transformed_color(room_width/2,700,"Press Enter to try againg",1,1,0,c,c,c,c,1);
 	draw_set_halign(fa_left);
 	break;
 }

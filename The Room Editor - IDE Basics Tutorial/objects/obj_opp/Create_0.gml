@@ -1,1 +1,0 @@
-instance_create_layer(430, 720, "Instances", obj_opp);

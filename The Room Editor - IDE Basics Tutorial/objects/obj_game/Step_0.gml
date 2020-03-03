@@ -1,5 +1,8 @@
 
-
+if room == rm_game
+{
+	inp = keyboard_string;
+}
 if (keyboard_check_pressed(vk_enter))
 {
 	switch(room)
@@ -29,8 +32,14 @@ if (keyboard_check_pressed(vk_enter))
 		
 		case rm_game:
 			qu = scr_quest(rl,rh,fx);
+			inp = "";
 			break;
-		
+		case rm_win:
+			game_restart();
+			break;
+		case rm_lose:
+			game_restart();
+			break;
 	}
 }
 if room==rm_lv
