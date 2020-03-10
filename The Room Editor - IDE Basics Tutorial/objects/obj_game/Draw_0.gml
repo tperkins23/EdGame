@@ -50,6 +50,14 @@ case rm_game:
 case rm_win:
 	draw_set_halign(fa_center);
 	var c = c_yellow;
+	wk = "";
+	for (var v = 0; v < ds_list_size(ls); v +=1)
+	{	
+		wk += "  " + string(ds_list_find_value(ls,v));
+	}
+	//show_debug_message(wk);
+	draw_text_transformed_color(room_width/2,150,"Problems to Work On",3,3,0,c,c,c,c,1);
+	draw_text_transformed_color(room_width/2,300,wk,3,3,0,c,c,c,c,1);
 	draw_text_transformed_color(room_width/2, 500,"Winner",3,3,0,c,c,c,c,1);
 	draw_text_transformed_color(room_width/2,700,"Press Enter to play again",1,1,0,c,c,c,c,1);
 	draw_set_halign(fa_left);
@@ -57,6 +65,14 @@ case rm_win:
 case rm_lose:
 	draw_set_halign(fa_center);
 	var c = c_orange;
+	wk = "";
+	for (var v = 0; v < ds_list_size(ls); v+=1)
+	{	
+		wk += "  " + string(ds_list_find_value(ls,v));
+	}
+	//show_debug_message(wk);
+	draw_text_transformed_color(room_width/2,150,"Problems to Work On",3,3,0,c,c,c,c,1);
+	draw_text_transformed_color(room_width/2,300,wk,3,3,0,c,c,c,c,1);
 	draw_text_transformed_color(room_width/2,500,"Game Over",3,3,0,c,c,c,c,1);
 	draw_text_transformed_color(room_width/2,700,"Press Enter to try again",1,1,0,c,c,c,c,1);
 	draw_set_halign(fa_left);

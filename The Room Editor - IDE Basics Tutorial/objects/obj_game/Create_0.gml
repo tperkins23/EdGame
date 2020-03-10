@@ -22,3 +22,6 @@ str = 0;
 
 globalvar a;
 a = 0;
+
+globalvar ls;
+ls = ds_list_create();
