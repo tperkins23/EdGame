@@ -119,11 +119,35 @@
             }
         },
         {
+            "Key": "52ffe594-f22f-4dd9-8d3d-76ad4e0f4b47",
+            "Value": {
+                "id": "9913baae-3a0f-45f5-b899-cef4603b86ac",
+                "resourcePath": "scripts\\scr_div\\scr_div.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "530a1b77-857d-4a15-b4f9-5913c39b7ec6",
             "Value": {
                 "id": "0fb602fa-c885-491e-bddf-471c2cf90ca6",
                 "resourcePath": "rooms\\rm_diff\\rm_diff.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "592ccc5c-2d29-4733-8c64-c6b30356655b",
+            "Value": {
+                "id": "ba1fba05-bae6-4a18-9460-35ad792178b2",
+                "resourcePath": "rooms\\rm_rang\\rm_rang.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5c50566b-ea04-4e90-a0e4-72678820e43c",
+            "Value": {
+                "id": "fa9c5de2-14c8-43bd-83d7-60f327b7c7a3",
+                "resourcePath": "sprites\\spr_grass\\spr_grass.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "ab3cc215-62ba-4162-a57a-7fee33dc1763",
+            "Value": {
+                "id": "d7678ff1-8280-45ef-b1f7-58656c67d885",
+                "resourcePath": "rooms\\rm_sel\\rm_sel.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "aee47b5f-d711-4306-836d-71dc8581198e",
             "Value": {
                 "id": "dd0f7024-c844-4b75-8b1d-73963ba739bb",
@@ -327,6 +359,14 @@
             }
         },
         {
+            "Key": "f7c9dd9b-a0a9-4a7f-bf85-a9b8e1ed1fc1",
+            "Value": {
+                "id": "c37418ab-fe57-4613-bc0d-6a0d1b868bff",
+                "resourcePath": "rooms\\rm_div\\rm_div.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f9bb8135-2212-4863-b758-b0d1b18e8ad8",
             "Value": {
                 "id": "8cf7d45a-9454-4347-ae84-eb80b3550b79",
@@ -341,18 +381,11 @@
                 "resourcePath": "rooms\\rm_home\\rm_home.yy",
                 "resourceType": "GMRoom"
             }
-        },
-        {
-            "Key": "fe3e7314-3fca-41c3-bb84-1add30524b79",
-            "Value": {
-                "id": "c2c73360-a4b0-4eb3-ad34-43aaf3978248",
-                "resourcePath": "sprites\\grass_tex\\grass_tex.yy",
-                "resourceType": "GMSprite"
-            }
         }
     ],
     "script_order": [
-        "a07895f5-fad0-4d0d-98aa-58bbf058001c"
+        "a07895f5-fad0-4d0d-98aa-58bbf058001c",
+        "52ffe594-f22f-4dd9-8d3d-76ad4e0f4b47"
     ],
     "tutorial": "com.YoYoGames.GMBasicsTheRoomEditor"
 }

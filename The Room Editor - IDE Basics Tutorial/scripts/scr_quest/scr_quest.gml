@@ -1,6 +1,7 @@
 var low = argument0;
 var up = argument1;
 var func = argument2;
+randomize();
 var v1 = irandom_range(low,up);
 var v2 = irandom_range(low,up);
 if (func == 1)

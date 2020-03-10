@@ -24,12 +24,7 @@ if (keyboard_check_pressed(vk_enter))
 			//keyboard_string = "";
 			//inp = keyboard_string;
 			break;
-		case rm_win:
-			game_restart();
-			break;
-		case rm_lose:
-			game_restart();
-			break;
+		
 	}
 	//show_debug_message("Enter");
 }
@@ -57,6 +52,11 @@ if room==rm_lv
 		else if (l3 == c_red)
 		{
 			l3 = c_blue;
+			l4 = c_red;
+		}
+		else if (l4 == c_red)
+		{
+			l4 = c_blue;
 			l1 = c_red;
 		}
 	}
@@ -65,7 +65,7 @@ if room==rm_lv
 		if (l1 == c_red)
 		{
 			l1 = c_blue;
-			l3 = c_red;
+			l4 = c_red;
 		}
 		else if (l2 == c_red)
 		{
@@ -76,6 +76,11 @@ if room==rm_lv
 		{
 			l3 = c_blue;
 			l2 = c_red;
+		}
+		else if (l4 == c_red)
+		{
+			l4 = c_blue;
+			l3 = c_red;
 		}
 	}
 }
@@ -118,7 +123,64 @@ if room==rm_diff
 		}
 	}
 }
+if room==rm_rang
+{
+	if (keyboard_check_pressed(vk_down))
+	{
+		if (rn1 == c_red)
+		{
+			rn1 = c_blue;
+			rn2 = c_red;
+		}
+		else if (rn2 == c_red)
+		{
+			rn2 = c_blue;
+			rn3 = c_red;
+		}
+		else if (rn3 == c_red)
+		{
+			rn3 = c_blue;
+			rn1 = c_red;
+		}
+	}
+	else if (keyboard_check_pressed(vk_up))
+	{
+		if (rn1 == c_red)
+		{
+			rn1 = c_blue;
+			rn3 = c_red;
+		}
+		else if (rn2 == c_red)
+		{
+			rn2 = c_blue;
+			rn1 = c_red;
+		}
+		else if (rn3 == c_red)
+		{
+			rn3 = c_blue;
+			rn2 = c_red;
+		}
+	}
+}
+if room==rm_div
+{
+	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(vk_up))
+	{
+		if (di1 == c_red)
+		{
+			di1 = c_blue;
+			di2 = c_red;
+		}
+		else if (di2 == c_red)
+		{
+			di2 = c_blue;
+			di1 = c_red;
+		}
+	}
+}
+
 if keyboard_check_pressed(vk_space)
+{
 switch(room)
 	{
 		case rm_home:
@@ -128,19 +190,37 @@ switch(room)
 			if l1==c_red
 			{
 				fx=1;
-				room_goto(rm_diff);
+				room_goto(rm_rang);
 				break;
 			}
 			else if l2==c_red
 			{
 				fx=2;
-				room_goto(rm_diff);
+				room_goto(rm_rang);
 				break;
 			}
 			else if l3==c_red
 			{
 				fx=3;
-				room_goto(rm_diff);
+				room_goto(rm_rang);
+				break;
+			}
+			else if l4 ==c_red
+			{
+				room_goto(rm_div);
+				break;
+			}
+		case rm_div:
+			if di1 == c_red
+			{
+				sing = 1;
+				room_goto(rm_sel);
+				break;
+			}
+			else if di2 == c_red
+			{
+				sing = 0;
+				room_goto(rm_sel);
 				break;
 			}
 		case rm_diff:
@@ -162,11 +242,41 @@ switch(room)
 				room_goto(rm_game);
 				break;
 			}
+			case rm_rang:
+			if rn1==c_red
+			{
+				rl = 1;
+				rh = 10;
+				room_goto(rm_diff);
+				break;
+			}
+			else if rn2==c_red
+			{
+				rl = 10;
+				rh = 20;
+				room_goto(rm_diff);
+				break;
+			}
+			else if rn3==c_red
+			{
+				rl = 1;
+				rh = 20;
+				room_goto(rm_diff);
+				break;
+			}
 		case rm_game:
 			if str==0
 			{
 				qu = scr_quest(rl,rh,fx);
 				str=1;
 			}
+			break;
+		case rm_win:
+			game_restart();
+			break;
+		case rm_lose:
+			game_restart();
+			break;
 			//inp = keyboard_string;
+	}
 }
