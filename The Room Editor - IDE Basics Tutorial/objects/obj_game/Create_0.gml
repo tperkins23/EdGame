@@ -2,12 +2,18 @@
 // You can write your code in this editor
 rl = 1;
 rh = 10;
+globalvar scr;
+scr = 1;
 globalvar fx;
 fx = 1;
 globalvar diff;
 diff = 1;
 globalvar sing;
 sing = 1;
+globalvar dn;
+dn = 1;
+globalvar md;
+md = 0;
 
 l1 = c_red;
 l2 = c_blue;
