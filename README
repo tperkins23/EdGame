@@ -8,3 +8,21 @@ After completing the tutorial I will begin intergrating movement into my game.
 
 2/13/20: Continued working through tutorial. I will begin to transfer code knowledge into the EdGame upon finishing the tutorial.
 
+2/25/20: I have completed the selection screens including home, level, and difficulty. In addition I have started to work with how 
+to use a path feature for the movement of the player.
+
+3/3/20: I have completed the movement of the player and computer runners. Starting to work on the display and comparison of player input values. 
+
+3/5/20: Completed the first rough copy of the game the basic features work but I will need to go back in and clean up so aspects and possibly
+look into adding more features.
+
+3/9/20: Retested functionality and found that within every level the same questions pop up in the same order which is not dsired. 
+Added a list of problems to work on to appear on both the win and loss screens to show users what questions they got wrong.
+
+3/10/20:Game Completed ... Also added in division and may push multiplication over to the division script to make it more useful for student practice.
+
+3/26/20: After having third party testing found that if the input contained no numbers the game would error out. I added a 
+few lines of code to handle that error and have not had any error outs since.
+
+
+
