@@ -7,42 +7,49 @@ if (keyboard_check_pressed(vk_enter))
 	switch(room)
 	{
 		case rm_game:
-			if scr == 1
+			if string_digits(keyboard_string) != ""
 			{
-				if real(string_digits(keyboard_string)) == qu[1]
+				if scr == 1
 				{
-					qu = scr_quest(rl,rh,fx);
-					a = 1;
-				}
-				else
-				{
-					if ds_list_find_index(ls,qu[0]) == -1
+					if real(string_digits(keyboard_string)) == qu[1]
 					{
-						ds_list_add(ls,qu[0]);
+						qu = scr_quest(rl,rh,fx);
+						a = 1;
 					}
-					a = 0;
-				}
+					else
+					{
+						if ds_list_find_index(ls,qu[0]) == -1
+						{
+							ds_list_add(ls,qu[0]);
+						}
+						a = 0;
+					}
 			//show_debug_message(string_digits(keyboard_string));
 			//keyboard_string = "";
 			//inp = keyboard_string;
-				break;
-			}
-			if scr == 2
-			{
-				if real(string_digits(keyboard_string)) == qu[1]
-				{
-					qu = scr_div(sing,dn,md);
-					a = 1;
+					break;
 				}
-				else
+				if scr == 2
 				{
-					if ds_list_find_index(ls,qu[0]) == -1
+					if real(string_digits(keyboard_string)) == qu[1]
 					{
-						ds_list_add(ls,qu[0]);
+						qu = scr_div(sing,dn,md);
+						a = 1;
 					}
-					a = 0;
+					else
+					{
+						if ds_list_find_index(ls,qu[0]) == -1
+						{
+							ds_list_add(ls,qu[0]);
+						}
+						a = 0;
+					}
+					break;
 				}
-				break;
+			}
+			else
+			{
+				a = 0
 			}
 	}
 	//show_debug_message("Enter");
