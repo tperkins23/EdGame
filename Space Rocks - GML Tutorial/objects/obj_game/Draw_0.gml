@@ -15,7 +15,7 @@ case rm_start:
 	@"Score 1,000 points to win!
 
 UP: Move
-LEFT/RIGHT: CChange Directions
+LEFT/RIGHT: Change Directions
 SPACE: shoot
 
 >>PRESS ENTER TO START<<");

@@ -1,2 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
+randomize();
+globalvar pnum;
+pnum = 2;
+globalvar n2;
+n2 = c_green;
+globalvar n3;
+n3 = c_red;
+globalvar n4;
+n4 = c_red;
+globalvar nam1;
+nam1 = "";
+globalvar nam2;
+nam2 = "";
+globalvar nam3;
+nam3 = "";
+globalvar nam4;
+nam4 = "";
+globalvar roll;
+roll =[1,spr_die1];
+globalvar st1;
+st1=0;
+globalvar st2;
+st2 = 0;
+globalvar st3;
+st3 = 0;
+globalvar st4;
+st4=0;
+globalvar turn;
+turn = 1;
+globalvar sp;
+sp = 0;
